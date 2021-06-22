@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keep Notes</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        .btn{
+            background-color: aqua;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Keep Notes</h3>
+        <div class="row">
+            <form class="task-form">
+                <div class="input-field col s12">
+                    <input value="" id="task" type="text" name="task">
+                    <label class="active" for="task">TODO</label>
+                </div>
+                <input class="add-task btn" type="submit" value="Add Task">
+            </form>
+        </div>
+
+        <div class="input-field col s12">
+            <input value="" id="filter" type="text" name="filter">
+            <label class="active" for="filter">Search Filter</label>
+        </div>
+        <div class="task-list row">
+            <!-- <div class="col s6">
+                <div class="card">
+                    <div class="card-content">
+                        <p class="task-item">Complete JS modules 3,4,5</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Remove</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+</html>
